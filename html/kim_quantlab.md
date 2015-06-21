@@ -241,7 +241,15 @@ World Wide Web, 17(4), 723-742.
 
 --- .new-background
 
-## 감정 점수 & 해석
+## 감정 점수
+
+<center><img src="assets/img/sentiment_ref.png" height="500" width="500"></center>
+
+- [출처 : Mario Annau(2010)](http://statmath.wu.ac.at/courses/SNLP/Presentations/DA-Sentiment.pdf)
+
+--- .new-background
+
+## 감정 점수
 
 <center><img src="assets/img/sentiment.png" height="600" width="650"></center>
 
@@ -320,6 +328,7 @@ Journal of Machine Learning Research, 2003.
 
 ```r
 library(lda)
+library(topicmodels)
 ```
 
 *** =right
@@ -338,6 +347,10 @@ library(lda)
   <tr> <td align="right"> 4 </td> <td> slda </td> <td align="right"> 0.66 </td> <td align="right"> -0.01 </td> <td align="right"> 0.05 </td> <td align="right"> 1.00 </td> </tr>
    </table>
 
+--- .dark .segue .nobackground
+
+## HOW?
+
 --- .new-background
 
 <div align="center">
@@ -350,12 +363,6 @@ library(lda)
 <iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=4&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
---- .new-background
-
-<div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=20&lambda=.5&term="  frameborder="0"">
-</iframe></div>
-
 
 --- .new-background
 
@@ -365,8 +372,26 @@ library(lda)
 
 --- .new-background
 
+<div align="center">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
+</iframe></div>
+
+--- .new-background
+
+## Dynamic Topic Model
+
+### A차종의 불만 요인 중 하나의 Topic
+
+<center><img src="assets/img/dtm_12_topic.png" height="500" width="800"></center>
+
+--- .new-background
+
 ## 워크숍 관련 온라인 사이트
 
 http://course.mindscale.kr/course/text-analysis
 
 <left><img src="assets/img/courses.png" height=450px width=600px></left>
+
+--- .dark .segue .nobackground
+
+## 감사합니다

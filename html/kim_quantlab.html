@@ -386,10 +386,14 @@ World Wide Web, 17(4), 723-742.</p>
 
 <slide class="new-background" id="slide-16" style="background:;">
   <hgroup>
-    <h2>감정 점수 &amp; 해석</h2>
+    <h2>감정 점수</h2>
   </hgroup>
   <article data-timings="">
-    <p><center><img src="assets/img/sentiment.png" height="600" width="650"></center></p>
+    <p><center><img src="assets/img/sentiment_ref.png" height="500" width="500"></center></p>
+
+<ul>
+<li><a href="http://statmath.wu.ac.at/courses/SNLP/Presentations/DA-Sentiment.pdf">출처 : Mario Annau(2010)</a></li>
+</ul>
 
   </article>
   <!-- Presenter Notes -->
@@ -397,10 +401,10 @@ World Wide Web, 17(4), 723-742.</p>
 
 <slide class="new-background" id="slide-17" style="background:;">
   <hgroup>
-    <h2>감정 점수 실패 사례</h2>
+    <h2>감정 점수</h2>
   </hgroup>
   <article data-timings="">
-    <p><center><img src="assets/img/foulball.png" height="500" width="800"></center></p>
+    <p><center><img src="assets/img/sentiment.png" height="600" width="650"></center></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -411,7 +415,7 @@ World Wide Web, 17(4), 723-742.</p>
     <h2>감정 점수 실패 사례</h2>
   </hgroup>
   <article data-timings="">
-    <p><center><img src="assets/img/foulball_01.png" height="500" width="500"></center></p>
+    <p><center><img src="assets/img/foulball.png" height="500" width="800"></center></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -422,13 +426,24 @@ World Wide Web, 17(4), 723-742.</p>
     <h2>감정 점수 실패 사례</h2>
   </hgroup>
   <article data-timings="">
+    <p><center><img src="assets/img/foulball_01.png" height="500" width="500"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>감정 점수 실패 사례</h2>
+  </hgroup>
+  <article data-timings="">
     <p><center><img src="assets/img/foulball_02.png" height="500" width="800"></center></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background modal" id="slide-20" style="background:;">
+<slide class="new-background modal" id="slide-21" style="background:;">
   <hgroup>
     <h2>WHY?</h2>
   </hgroup>
@@ -470,7 +485,7 @@ World Wide Web, 17(4), 723-742.</p>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-21" style="background:;">
+<slide class="new-background" id="slide-22" style="background:;">
   <hgroup>
     <h2>대안</h2>
   </hgroup>
@@ -486,6 +501,7 @@ Journal of Machine Learning Research, 2003.<br></li>
 </ul>
 
 <pre><code class="r">library(lda)
+library(topicmodels)
 </code></pre>
 
 </div>    
@@ -509,7 +525,17 @@ Journal of Machine Learning Research, 2003.<br></li>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-22" style="background:;">
+<slide class="dark segue nobackground" id="slide-23" style="background:;">
+  <hgroup>
+    <h2>HOW?</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-24" style="background:;">
   <article data-timings="">
     <div align="center">
 <iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term="  frameborder="0"">
@@ -519,7 +545,7 @@ Journal of Machine Learning Research, 2003.<br></li>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-23" style="background:;">
+<slide class="new-background" id="slide-25" style="background:;">
   <article data-timings="">
     <div align="center">
 <iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=4&lambda=.5&term="  frameborder="0"">
@@ -529,17 +555,7 @@ Journal of Machine Learning Research, 2003.<br></li>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-24" style="background:;">
-  <article data-timings="">
-    <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=20&lambda=.5&term="  frameborder="0"">
-</iframe></div>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="new-background" id="slide-25" style="background:;">
+<slide class="new-background" id="slide-26" style="background:;">
   <article data-timings="">
     <div align="center">
 <iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
@@ -549,7 +565,30 @@ Journal of Machine Learning Research, 2003.<br></li>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-26" style="background:;">
+<slide class="new-background" id="slide-27" style="background:;">
+  <article data-timings="">
+    <div align="center">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
+</iframe></div>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-28" style="background:;">
+  <hgroup>
+    <h2>Dynamic Topic Model</h2>
+  </hgroup>
+  <article data-timings="">
+    <h3>A차종의 불만 요인 중 하나의 Topic</h3>
+
+<p><center><img src="assets/img/dtm_12_topic.png" height="500" width="800"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-29" style="background:;">
   <hgroup>
     <h2>워크숍 관련 온라인 사이트</h2>
   </hgroup>
@@ -558,6 +597,16 @@ Journal of Machine Learning Research, 2003.<br></li>
 
 <p><left><img src="assets/img/courses.png" height=450px width=600px></left></p>
 
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="dark segue nobackground" id="slide-30" style="background:;">
+  <hgroup>
+    <h2>감사합니다</h2>
+  </hgroup>
+  <article data-timings="">
+    
   </article>
   <!-- Presenter Notes -->
 </slide>
@@ -658,13 +707,13 @@ Journal of Machine Learning Research, 2003.<br></li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=16 title='감정 점수 &amp; 해석'>
+        data-slide=16 title='감정 점수'>
          16
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=17 title='감정 점수 실패 사례'>
+        data-slide=17 title='감정 점수'>
          17
       </a>
     </li>
@@ -682,25 +731,25 @@ Journal of Machine Learning Research, 2003.<br></li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=20 title='WHY?'>
+        data-slide=20 title='감정 점수 실패 사례'>
          20
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=21 title='대안'>
+        data-slide=21 title='WHY?'>
          21
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=22 title=''>
+        data-slide=22 title='대안'>
          22
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=23 title=''>
+        data-slide=23 title='HOW?'>
          23
       </a>
     </li>
@@ -718,8 +767,32 @@ Journal of Machine Learning Research, 2003.<br></li>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=26 title='워크숍 관련 온라인 사이트'>
+        data-slide=26 title=''>
          26
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=27 title=''>
+         27
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=28 title='Dynamic Topic Model'>
+         28
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=29 title='워크숍 관련 온라인 사이트'>
+         29
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=30 title='감사합니다'>
+         30
       </a>
     </li>
   </ul>
