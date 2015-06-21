@@ -277,7 +277,7 @@ library(lda)
 
 *** =right
 
-### SLDA
+### 예측한 점수와 실제 점수간 상관관계
 
 ```{r, echo=F}
 cor.resutls <- read.csv("/Users/kimhyungjun/Dropbox/repo/r_conference_2015/RUCK2015/data/naver_movie_cor.csv") 
