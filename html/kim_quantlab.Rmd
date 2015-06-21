@@ -309,6 +309,12 @@ print(xtable(cor.resutls),type="html")
 
 --- .new-background
 
+<div align="center">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
+</iframe></div>
+
+--- .new-background
+
 ## 워크숍 관련 온라인 사이트
 
 http://course.mindscale.kr/course/text-analysis
