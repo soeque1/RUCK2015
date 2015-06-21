@@ -194,11 +194,11 @@ library(networkD3)
 
 ## 사전 만드는 법
 
-Dragut, E. C., Yu, C., Sistla, P., & Meng, W. (2010).  
+<h3b>Dragut, E. C., Yu, C., Sistla, P., & Meng, W. (2010).  </h3b>  
 Construction of a sentimental word dictionary.  
 Paper presented at the Proceedings of the 19th ACM international conference on Information and knowledge management.  
 
-Rao, Y., Lei, J., Wenyin, L., Li, Q., & Chen, M. (2014).  
+<h3b>Rao, Y., Lei, J., Wenyin, L., Li, Q., & Chen, M. (2014).  </h3b>  
 Building emotional dictionary for sentiment analysis of online news.  
 World Wide Web, 17(4), 723-742.
 
@@ -289,7 +289,7 @@ print(xtable(cor.resutls),type="html")
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=9&lambda=.5&term="  frameborder="0"">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=6&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
