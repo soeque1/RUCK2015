@@ -275,6 +275,7 @@ World Wide Web, 17(4), 723-742.
 *** =left
 
 - Training Set과 Test Set을 7:3으로 분할
+- SLDA 사용 
 - Blei, David M. and Ng, Andrew and Jordan, Michael. 
 Latent Dirichlet allocation.   
 Journal of Machine Learning Research, 2003.  
@@ -299,6 +300,22 @@ library(lda)
   <tr> <td align="right"> 3 </td> <td> Senti-Diff </td> <td align="right"> 0.07 </td> <td align="right"> 0.75 </td> <td align="right"> 1.00 </td> <td align="right"> 0.05 </td> </tr>
   <tr> <td align="right"> 4 </td> <td> slda </td> <td align="right"> 0.66 </td> <td align="right"> -0.01 </td> <td align="right"> 0.05 </td> <td align="right"> 1.00 </td> </tr>
    </table>
+
+--- .new-background
+
+<div align="center">
+<iframe width="1024" height="640"
+
+http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=1&lambda=0.51&term=
+</iframe></div>
+
+--- .new-background
+
+<div align="center">
+<iframe width="1024" height="640"
+
+http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term=
+</iframe></div>
 
 --- .new-background
 
