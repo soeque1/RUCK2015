@@ -247,13 +247,21 @@ World Wide Web, 17(4), 723-742.
 
 <center><img src="assets/img/foulball_02.png" height="500" width="800"></center>
 
---- .new-background
+--- .new-background  .modal
 
 ## WHY?
 
+```{r, echo=F}
+bean.ball <- read.csv("/Users/kimhyungjun/Dropbox/repo/r_conference_2015/RUCK2015/data/bean_ball.csv") 
+```
+
+```{r, echo=F, eval=T}
+bean.ball$x
+```
+
 --- &twocol w1:50% w2:50% .new-background
 
-## 해결 방법
+## 대안
 
 *** =left
 
