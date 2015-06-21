@@ -305,7 +305,7 @@ World Wide Web, 17(4), 723-742.
 ## [31] "드러운노친네 빈볼날리니 좋아?"
 ```
 
---- .new-background
+--- &twocol w1:50% w2:50% .new-background
 
 ## 대안
 
@@ -347,7 +347,20 @@ library(lda)
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=6&lambda=.5&term="  frameborder="0"">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=4&lambda=.5&term="  frameborder="0"">
+</iframe></div>
+
+--- .new-background
+
+<div align="center">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=20&lambda=.5&term="  frameborder="0"">
+</iframe></div>
+
+
+--- .new-background
+
+<div align="center">
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
