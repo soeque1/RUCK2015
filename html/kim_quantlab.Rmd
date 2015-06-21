@@ -285,15 +285,7 @@ print(xtable(cor.resutls),type="html")
 <div align="center">
 <iframe width="1024" height="640"
 
-http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=1&lambda=0.51&term=
-</iframe></div>
-
---- .new-background
-
-<div align="center">
-<iframe width="1024" height="640"
-
-http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term=
+src="http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term="
 </iframe></div>
 
 --- .new-background
