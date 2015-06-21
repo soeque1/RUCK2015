@@ -304,25 +304,14 @@ library(lda)
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640"
-
-http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=1&lambda=0.51&term=
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640"
-
-http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term=
+<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=9&lambda=.5&term="  frameborder="0"">
 </iframe></div>
-
---- .new-background
-
-<div align="center">
-<iframe width="1024" height="640"
-src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda=.5&term="  frameborder="0"">
-    </iframe></div>
 
 --- .new-background
 
