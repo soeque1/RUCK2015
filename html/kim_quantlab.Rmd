@@ -2,7 +2,7 @@
 title       : "R을 이용한 텍스트 감정분석"
 subtitle    : "여론과 감성 발견하기"
 author      : "김형준"
-job         : "Data Analyst : (주) 퀀트랩"
+job         : "Data Analyst / (주) 퀀트랩 / kim@mindscale.kr "
 biglogo     : logo_01.png
 logo        : logo_03.png
 license     : by-nc-sa
@@ -15,15 +15,39 @@ knit        : slidify::knit2slides
 
 ---
 
-## Introduction
+## 발표자 소개
+
+- 김형준 (kim@mindscale.kr)
+- 서울대학교 인류학 / 심리학 학사
+- 서울대학교 인지과학 석사
+
+### (현)
+- (주)퀀트랩 Analytic Director  
+- [온오프라인 R 교육](http://course.mindscale.kr/course/text-analysis)
+- 기업 데이터 분석 및 컨설팅  
+
+### (전)
+- 품질 / 클레임 / 인사 데이터 분석  
+- 홈페이지 및 서버 관리
 
 --- .new-background
 
-### R
+## 회사 소개
 
-### 통계 프로그램 : 모형화 / 예측  
-### 시각화 도구 : ggplot2 / Web과 연동  
-### 언어 처리(?) : 텍스트 분석  
+<center><img src="assets/img/quantlab_intro.png" height="600" width="600"></center>
+
+--- .new-background
+
+## 나에게 R이란?
+
+<h4></br></h4>
+<h4></br></h4>
+
+<h3b> 1. 통계 프로그램 : 모형화 / 예측  </h3b>  
+<h3b> 2. 시각화 도구 : ggplot2 / Web과 연동 </h3b>     
+<h3b> 3. 발표 자료 도구 : slidify   </h3b>  
+<h3b> 4. 언어 처리 도구 : 텍스트 분석   </h3b>  
+<h3b> 5. Matlab / Python -> R </h3b>  
 
 --- .new-background
 
@@ -35,6 +59,33 @@ knit        : slidify::knit2slides
 ### 감정 분석 목적
 : 특정 키워드(이미지, 제품 등)에 대한 감정을 점수화하여 별도의 여론 조사 없이 감정의 정도를 예측할 수 있습니다. 또한, 감정의 이유를 분석하여 부정적인 요소를 개선할 수 있습니다.
 
+### 통계 분석 목적 
+: 주어진 데이터를 통해 미래를 예측 + 통계 모형을 통해 현상을 설명  
+
+--- &twocol w1:50% w2:50% .new-background
+
+## 분석 예시 - Text
+
+*** =left
+
+### 최초의 텍스트 분석
+
+<h4></br></h4>
+
+형태소 분석기  
+- 형태소 분석기 KLT2000 (강승식)  
+
+R  
+- wordcloud  
+- shiny  
+
+결과
+- 신축 기숙사 공용 공간 확대  
+- 기존 기숙사 흡연 구역 재배정  
+
+*** =right
+<center><img src="assets/img/first.png" height="600" width="650"></center>
+
 --- &twocol w1:50% w2:50% .new-background
 
 ## 분석 예시 - Text
@@ -43,23 +94,81 @@ knit        : slidify::knit2slides
 <center><img src="assets/img/before_imitation.png" height="500" width="500"></center>
 
 *** =right
-<center><img src="assets/img/after_imitation.png" height="500" width="500"></center>
-
---- .new-background
-
-## 분석 예시 - Self-Rating & Text
-
-<center><img src="assets/img/sentiment.png" height="600" width="650"></center>
+<center><img src="assets/img/after_imitation.png" height="600" width="600"></center>
 
 --- &twocol w1:50% w2:50% .new-background
 
-## R과 감정 분석
+## 텍스트와 감정
 
 *** =left
-<center><img src="assets/img/Google_Chart_01.png" height="500" width="500"></center>
+<center><img src="assets/img/avengers.png" height="800" width="800"></center>
 
 *** =right
-<center><img src="assets/img/Google_Chart_02.png" height="500" width="500"></center>
+
+<h4></br></h4>
+<h4></br></h4>
+
+```{r, eval=F}
+library(KoNLP) 
+library(tm)
+library(qgraph)
+```
+
+한국어 감정사전  
+불필요(stopwords) 단어사전  
+
+```{r results="asis", echo=F, fig.width=6}
+실망 = c("허접", "3d", "4d", "cg빨", "기대")
+지루 = c("초반", "산만", "전개", "감정", "전편")
+```
+
+```{r, eval=T}
+실망
+지루
+```
+
+--- &twocol w1:50% w2:50% .new-background
+
+## 텍스트와 감정
+
+*** =left
+
+<center><img src="assets/img/HD_02.png" height="800" width="800"></center>
+
+*** =right
+
+<h4></br></h4>
+<h4></br></h4>
+
+```{r echo=F}
+문제 = c('발생','차량','해결','방향','무관','상태','판단','동일', '소음', '엔진')
+결함 = c('심각','리콜','기미','대형사고','머플러','목숨','앞바퀴','직관','확인','국토')
+```
+
+```{r results="asis", echo=T, fig.width=6}
+문제
+결함
+```
+
+--- &twocol w1:70% w2:30% .new-background
+
+## 텍스트와 감정
+
+*** =left
+
+<div align="center">
+<iframe width="1024" height="640"
+src="http://soeque1.github.io/RUCK2015/html/assets/img/graph.html"  frameborder='0'>
+    </iframe></div>
+
+*** =right
+
+<h4></br></h4>
+<h4></br></h4>
+
+```{r, eval=F}
+library(networkD3) 
+```
 
 --- .dark .segue .nobackground
 
@@ -74,6 +183,7 @@ knit        : slidify::knit2slides
 - KoNLP 
 
 ### 감정사전 
+
 - tm.plugin.sentiment
 - http://mpqa.cs.pitt.edu/lexicons/subj_lexicon/
 - http://word.snu.ac.kr/kosac/
@@ -84,23 +194,97 @@ knit        : slidify::knit2slides
 
 ## 사전 만드는 법
 
-### 1. Web - Crwaling  
-### 2. Y(문서별 점수) ~ X(문서 * 단어)  
-### 3.1. Seed Word 활용  
-### 3.2. Models : SVM, Deep-Learning, GLM 등  
+Dragut, E. C., Yu, C., Sistla, P., & Meng, W. (2010).  
+Construction of a sentimental word dictionary.  
+Paper presented at the Proceedings of the 19th ACM international conference on Information and knowledge management.  
+
+Rao, Y., Lei, J., Wenyin, L., Li, Q., & Chen, M. (2014).  
+Building emotional dictionary for sentiment analysis of online news.  
+World Wide Web, 17(4), 723-742.
+
+--- .new-background
+
+## Workflow
+
+<center><img src="assets/img/system_02.png" height="400" width="650"></center>
+
+--- .dark .segue .nobackground
+
+## Scoring
+
+--- &twocol w1:50% w2:50% .new-background
+
+## 감정 점수
+
+*** =left
+<center><img src="assets/img/Google_Chart_01.png" height="500" width="500"></center>
+
+*** =right
+<center><img src="assets/img/Google_Chart_02.png" height="500" width="500"></center>
+
+--- .new-background
+
+## 감정 점수 & 해석
+
+<center><img src="assets/img/sentiment.png" height="600" width="650"></center>
+
+
+--- .new-background
+
+## 감정 점수 실패 사례
+
+<center><img src="assets/img/foulball.png" height="500" width="800"></center>
+
+--- .new-background
+
+## 감정 점수 실패 사례
+
+<center><img src="assets/img/foulball_01.png" height="500" width="500"></center>
+
+--- .new-background
+
+## 감정 점수 실패 사례
+
+<center><img src="assets/img/foulball_02.png" height="500" width="800"></center>
+
+--- .new-background
+
+## WHY?
+
+--- &twocol w1:50% w2:50% .new-background
+
+## 해결 방법
+
+*** =left
+
+- Training Set과 Test Set을 7:3으로 분할
+- SLDA 사용 
+- Blei, David M. and Ng, Andrew and Jordan, Michael. 
+Latent Dirichlet allocation.   
+Journal of Machine Learning Research, 2003.  
+
+```{r}
+library(lda)
+```
+
+*** =right
+
+### SLDA
+
+```{r, echo=F}
+cor.resutls <- read.csv("/Users/kimhyungjun/Dropbox/repo/r_conference_2015/RUCK2015/data/naver_movie_cor.csv") 
+```
+
+```{r xtable2_1, results="asis", echo=F, fig.width=6}
+library("xtable")
+print(xtable(cor.resutls),type="html")
+```
 
 --- .new-background
 
 <div align="center">
 <iframe width="1024" height="640"
-src="http://soeque1.github.io/RUCK2015/html/assets/img/graph.html"  frameborder='0'>
-    </iframe></div>
-
----
-
-<div align="center">
-<iframe width="1024" height="640"
-src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda=1&term="  frameborder="0"">
+src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda=.5&term="  frameborder="0"">
     </iframe></div>
 
 --- .new-background
@@ -110,6 +294,3 @@ src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda
 http://course.mindscale.kr/course/text-analysis
 
 <left><img src="assets/img/courses.png" height=450px width=600px></left>
-
-
-

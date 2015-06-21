@@ -44,7 +44,7 @@
   <hgroup class="auto-fadein">
     <h1>R을 이용한 텍스트 감정분석</h1>
     <h2>여론과 감성 발견하기</h2>
-    <p>김형준<br/>Data Analyst : (주) 퀀트랩</p>
+    <p>김형준<br/>Data Analyst / (주) 퀀트랩 / kim@mindscale.kr </p>
   </hgroup>
   <article></article>  
   <footer class = 'license'>
@@ -58,30 +58,65 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Introduction</h2>
+    <h2>발표자 소개</h2>
   </hgroup>
   <article data-timings="">
-    
+    <ul>
+<li>김형준 (<a href="mailto:kim@mindscale.kr">kim@mindscale.kr</a>)</li>
+<li>서울대학교 인류학 / 심리학 학사</li>
+<li>서울대학교 인지과학 석사</li>
+</ul>
+
+<h3>(현)</h3>
+
+<ul>
+<li>(주)퀀트랩 Analytic Director<br></li>
+<li><a href="http://course.mindscale.kr/course/text-analysis">온오프라인 R 교육</a></li>
+<li>기업 데이터 분석 및 컨설팅<br></li>
+</ul>
+
+<h3>(전)</h3>
+
+<ul>
+<li>품질 / 클레임 / 인사 데이터 분석<br></li>
+<li>홈페이지 및 서버 관리</li>
+</ul>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="new-background" id="slide-2" style="background:;">
   <hgroup>
-    <h3>R</h3>
+    <h2>회사 소개</h2>
   </hgroup>
   <article data-timings="">
-    <h3>통계 프로그램 : 모형화 / 예측</h3>
-
-<h3>시각화 도구 : ggplot2 / Web과 연동</h3>
-
-<h3>언어 처리(?) : 텍스트 분석</h3>
+    <p><center><img src="assets/img/quantlab_intro.png" height="600" width="600"></center></p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
 <slide class="new-background" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>나에게 R이란?</h2>
+  </hgroup>
+  <article data-timings="">
+    <h4></br></h4>
+
+<h4></br></h4>
+
+<p><h3b> 1. 통계 프로그램 : 모형화 / 예측  </h3b><br>
+<h3b> 2. 시각화 도구 : ggplot2 / Web과 연동 </h3b><br>
+<h3b> 3. 발표 자료 도구 : slidify   </h3b><br>
+<h3b> 4. 언어 처리 도구 : 텍스트 분석   </h3b><br>
+<h3b> 5. Matlab / Python -&gt; R </h3b>  </p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-4" style="background:;">
   <hgroup>
     <h2>텍스트 분석</h2>
   </hgroup>
@@ -94,11 +129,55 @@
 
 <p>: 특정 키워드(이미지, 제품 등)에 대한 감정을 점수화하여 별도의 여론 조사 없이 감정의 정도를 예측할 수 있습니다. 또한, 감정의 이유를 분석하여 부정적인 요소를 개선할 수 있습니다.</p>
 
+<h3>통계 분석 목적</h3>
+
+<p>: 주어진 데이터를 통해 미래를 예측 + 통계 모형을 통해 현상을 설명  </p>
+
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-4" style="background:;">
+<slide class="new-background" id="slide-5" style="background:;">
+  <hgroup>
+    <h2>분석 예시 - Text</h2>
+  </hgroup>
+  <article data-timings="">
+      
+<div class='left' style='float:left;width:50%'>
+ <h3>최초의 텍스트 분석</h3>
+
+<h4></br></h4>
+
+<p>형태소 분석기  </p>
+
+<ul>
+<li>형태소 분석기 KLT2000 (강승식)<br></li>
+</ul>
+
+<p>R  </p>
+
+<ul>
+<li>wordcloud<br></li>
+<li>shiny<br></li>
+</ul>
+
+<p>결과</p>
+
+<ul>
+<li>신축 기숙사 공용 공간 확대<br></li>
+<li>기존 기숙사 흡연 구역 재배정<br></li>
+</ul>
+
+</div>    
+<div class='right' style='float:right;width:50%'>
+ <p><center><img src="assets/img/first.png" height="600" width="650"></center></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-6" style="background:;">
   <hgroup>
     <h2>분석 예시 - Text</h2>
   </hgroup>
@@ -109,43 +188,111 @@
 
 </div>    
 <div class='right' style='float:right;width:50%'>
- <p><center><img src="assets/img/after_imitation.png" height="500" width="500"></center></p>
+ <p><center><img src="assets/img/after_imitation.png" height="600" width="600"></center></p>
 
 </div>
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-5" style="background:;">
+<slide class="new-background" id="slide-7" style="background:;">
   <hgroup>
-    <h2>분석 예시 - Self-Rating &amp; Text</h2>
-  </hgroup>
-  <article data-timings="">
-    <p><center><img src="assets/img/sentiment.png" height="600" width="650"></center></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="new-background" id="slide-6" style="background:;">
-  <hgroup>
-    <h2>R과 감정 분석</h2>
+    <h2>텍스트와 감정</h2>
   </hgroup>
   <article data-timings="">
       
 <div class='left' style='float:left;width:50%'>
- <p><center><img src="assets/img/Google_Chart_01.png" height="500" width="500"></center></p>
+ <p><center><img src="assets/img/avengers.png" height="800" width="800"></center></p>
 
 </div>    
 <div class='right' style='float:right;width:50%'>
- <p><center><img src="assets/img/Google_Chart_02.png" height="500" width="500"></center></p>
+ <h4></br></h4>
+
+<h4></br></h4>
+
+<pre><code class="r">library(KoNLP) 
+library(tm)
+library(qgraph)
+</code></pre>
+
+<p>한국어 감정사전<br>
+불필요(stopwords) 단어사전  </p>
+
+<pre><code class="r">실망
+</code></pre>
+
+<pre><code>## [1] &quot;허접&quot; &quot;3d&quot;   &quot;4d&quot;   &quot;cg빨&quot; &quot;기대&quot;
+</code></pre>
+
+<pre><code class="r">지루
+</code></pre>
+
+<pre><code>## [1] &quot;초반&quot; &quot;산만&quot; &quot;전개&quot; &quot;감정&quot; &quot;전편&quot;
+</code></pre>
 
 </div>
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="dark segue nobackground" id="slide-7" style="background:;">
+<slide class="new-background" id="slide-8" style="background:;">
+  <hgroup>
+    <h2>텍스트와 감정</h2>
+  </hgroup>
+  <article data-timings="">
+      
+<div class='left' style='float:left;width:50%'>
+ <p><center><img src="assets/img/HD_02.png" height="800" width="800"></center></p>
+
+</div>    
+<div class='right' style='float:right;width:50%'>
+ <h4></br></h4>
+
+<h4></br></h4>
+
+<pre><code class="r">문제
+</code></pre>
+
+<p>[1] &quot;발생&quot; &quot;차량&quot; &quot;해결&quot; &quot;방향&quot; &quot;무관&quot; &quot;상태&quot; &quot;판단&quot; &quot;동일&quot; &quot;소음&quot; &quot;엔진&quot;</p>
+
+<pre><code class="r">결함
+</code></pre>
+
+<p>[1] &quot;심각&quot;     &quot;리콜&quot;     &quot;기미&quot;     &quot;대형사고&quot; &quot;머플러&quot;   &quot;목숨&quot;<br>
+ [7] &quot;앞바퀴&quot;   &quot;직관&quot;     &quot;확인&quot;     &quot;국토&quot;    </p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-9" style="background:;">
+  <hgroup>
+    <h2>텍스트와 감정</h2>
+  </hgroup>
+  <article data-timings="">
+      
+<div class='left' style='float:left;width:70%'>
+ <div align="center">
+<iframe width="1024" height="640"
+src="http://soeque1.github.io/RUCK2015/html/assets/img/graph.html"  frameborder='0'>
+    </iframe></div>
+
+</div>    
+<div class='right' style='float:right;width:30%'>
+ <h4></br></h4>
+
+<h4></br></h4>
+
+<pre><code class="r">library(networkD3) 
+</code></pre>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="dark segue nobackground" id="slide-10" style="background:;">
   <hgroup>
     <h2>How?</h2>
   </hgroup>
@@ -155,7 +302,7 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-8" style="background:;">
+<slide class="new-background" id="slide-11" style="background:;">
   <hgroup>
     <h2>필요한 것</h2>
   </hgroup>
@@ -181,46 +328,166 @@
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-9" style="background:;">
+<slide class="new-background" id="slide-12" style="background:;">
   <hgroup>
     <h2>사전 만드는 법</h2>
   </hgroup>
   <article data-timings="">
-    <h3>1. Web - Crwaling</h3>
+    <p>Dragut, E. C., Yu, C., Sistla, P., &amp; Meng, W. (2010).<br>
+Construction of a sentimental word dictionary.<br>
+Paper presented at the Proceedings of the 19th ACM international conference on Information and knowledge management.  </p>
 
-<h3>2. Y(문서별 점수) ~ X(문서 * 단어)</h3>
-
-<h3>3.1. Seed Word 활용</h3>
-
-<h3>3.2. Models : SVM, Deep-Learning, GLM 등</h3>
+<p>Rao, Y., Lei, J., Wenyin, L., Li, Q., &amp; Chen, M. (2014).<br>
+Building emotional dictionary for sentiment analysis of online news.<br>
+World Wide Web, 17(4), 723-742.</p>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="new-background" id="slide-10" style="background:;">
+<slide class="new-background" id="slide-13" style="background:;">
+  <hgroup>
+    <h2>Workflow</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/system_02.png" height="400" width="650"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="dark segue nobackground" id="slide-14" style="background:;">
+  <hgroup>
+    <h2>Scoring</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-15" style="background:;">
+  <hgroup>
+    <h2>감정 점수</h2>
+  </hgroup>
+  <article data-timings="">
+      
+<div class='left' style='float:left;width:50%'>
+ <p><center><img src="assets/img/Google_Chart_01.png" height="500" width="500"></center></p>
+
+</div>    
+<div class='right' style='float:right;width:50%'>
+ <p><center><img src="assets/img/Google_Chart_02.png" height="500" width="500"></center></p>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-16" style="background:;">
+  <hgroup>
+    <h2>감정 점수 &amp; 해석</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/sentiment.png" height="600" width="650"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-17" style="background:;">
+  <hgroup>
+    <h2>감정 점수 실패 사례</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/foulball.png" height="500" width="800"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-18" style="background:;">
+  <hgroup>
+    <h2>감정 점수 실패 사례</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/foulball_01.png" height="500" width="500"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-19" style="background:;">
+  <hgroup>
+    <h2>감정 점수 실패 사례</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><center><img src="assets/img/foulball_02.png" height="500" width="800"></center></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-20" style="background:;">
+  <hgroup>
+    <h2>WHY?</h2>
+  </hgroup>
+  <article data-timings="">
+    
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-21" style="background:;">
+  <hgroup>
+    <h2>해결 방법</h2>
+  </hgroup>
+  <article data-timings="">
+      
+<div class='left' style='float:left;width:50%'>
+ <ul>
+<li>Training Set과 Test Set을 7:3으로 분할</li>
+<li>Blei, David M. and Ng, Andrew and Jordan, Michael. 
+Latent Dirichlet allocation.<br>
+Journal of Machine Learning Research, 2003.<br></li>
+</ul>
+
+<pre><code class="r">library(lda)
+</code></pre>
+
+</div>    
+<div class='right' style='float:right;width:50%'>
+ <h3>SLDA</h3>
+
+<!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
+
+<!-- Sun Jun 21 22:11:03 2015 -->
+
+<table border=1>
+<tr> <th>  </th> <th> X </th> <th> test.point </th> <th> Polarity </th> <th> Senti.Diff </th> <th> slda </th>  </tr>
+  <tr> <td align="right"> 1 </td> <td> test.point </td> <td align="right"> 1.00 </td> <td align="right"> 0.01 </td> <td align="right"> 0.07 </td> <td align="right"> 0.66 </td> </tr>
+  <tr> <td align="right"> 2 </td> <td> Polarity </td> <td align="right"> 0.01 </td> <td align="right"> 1.00 </td> <td align="right"> 0.75 </td> <td align="right"> -0.01 </td> </tr>
+  <tr> <td align="right"> 3 </td> <td> Senti-Diff </td> <td align="right"> 0.07 </td> <td align="right"> 0.75 </td> <td align="right"> 1.00 </td> <td align="right"> 0.05 </td> </tr>
+  <tr> <td align="right"> 4 </td> <td> slda </td> <td align="right"> 0.66 </td> <td align="right"> -0.01 </td> <td align="right"> 0.05 </td> <td align="right"> 1.00 </td> </tr>
+   </table>
+
+</div>
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="new-background" id="slide-22" style="background:;">
   <article data-timings="">
     <div align="center">
 <iframe width="1024" height="640"
-src="http://soeque1.github.io/RUCK2015/html/assets/img/graph.html"  frameborder='0'>
+src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda=.5&term="  frameborder="0"">
     </iframe></div>
 
   </article>
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-11" style="background:;">
-  <article data-timings="">
-    <div align="center">
-<iframe width="1024" height="640"
-src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda=1&term="  frameborder="0"">
-    </iframe></div>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="new-background" id="slide-12" style="background:;">
+<slide class="new-background" id="slide-23" style="background:;">
   <hgroup>
     <h2>워크숍 관련 온라인 사이트</h2>
   </hgroup>
@@ -239,74 +506,140 @@ src="http://soeque1.github.io/RUCK2015/html/assets/vis/index.html#topic=9&lambda
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Introduction'>
+        data-slide=1 title='발표자 소개'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='R'>
+        data-slide=2 title='회사 소개'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='텍스트 분석'>
+        data-slide=3 title='나에게 R이란?'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='분석 예시 - Text'>
+        data-slide=4 title='텍스트 분석'>
          4
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title='분석 예시 - Self-Rating &amp; Text'>
+        data-slide=5 title='분석 예시 - Text'>
          5
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='R과 감정 분석'>
+        data-slide=6 title='분석 예시 - Text'>
          6
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=7 title='How?'>
+        data-slide=7 title='텍스트와 감정'>
          7
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=8 title='필요한 것'>
+        data-slide=8 title='텍스트와 감정'>
          8
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=9 title='사전 만드는 법'>
+        data-slide=9 title='텍스트와 감정'>
          9
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=10 title=''>
+        data-slide=10 title='How?'>
          10
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=11 title=''>
+        data-slide=11 title='필요한 것'>
          11
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=12 title='워크숍 관련 온라인 사이트'>
+        data-slide=12 title='사전 만드는 법'>
          12
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=13 title='Workflow'>
+         13
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=14 title='Scoring'>
+         14
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=15 title='감정 점수'>
+         15
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=16 title='감정 점수 &amp; 해석'>
+         16
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=17 title='감정 점수 실패 사례'>
+         17
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=18 title='감정 점수 실패 사례'>
+         18
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=19 title='감정 점수 실패 사례'>
+         19
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=20 title='WHY?'>
+         20
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=21 title='해결 방법'>
+         21
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=22 title=''>
+         22
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=23 title='워크숍 관련 온라인 사이트'>
+         23
       </a>
     </li>
   </ul>
