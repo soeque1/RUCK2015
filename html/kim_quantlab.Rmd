@@ -403,11 +403,44 @@ print(xtable(cor.resutls),type="html")
 
 --- .new-background
 
+<style>
+italic {
+   font-style: italic;
+}
+</style>
+
 ## Dynamic Topic Model
 
-### A차종의 불만 요인 중 하나의 Topic
+<center><img src="assets/img/dtm_intro.png" height="400" width="600"></center>
+  
+<h4></br></h4>
+  
+Blei, D. M., & Lafferty, J. D. (2006)  
+Dynamic topic models. <italic> In Proceedings of the 23rd international conference on Machine learning. </italic> ACM.
 
-<center><img src="assets/img/dtm_12_topic.png" height="500" width="800"></center>
+--- &twocol w1:50% w2:50% .new-background
+
+## A차종의 장점 요인
+
+*** =left
+
+<center><img src="assets/img/dtm_05_topic_01.png" height="500" width="800"></center>
+
+*** =right
+
+<center><img src="assets/img/dtm_04_topic_01.png" height="500" width="800"></center>
+
+--- &twocol w1:50% w2:50% .new-background
+
+## A차종의 불만 요인
+
+*** =left
+
+<center><img src="assets/img/dtm_07_topic_01.png" height="500" width="800"></center>
+
+*** =right
+
+<center><img src="assets/img/dtm_background.png" height="500" width="800"></center>
 
 --- .new-background
 
