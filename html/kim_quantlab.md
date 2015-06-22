@@ -228,15 +228,26 @@ library(networkD3)
 
 --- .new-background
 
+<style>
+italic {
+   font-style: italic;
+}
+</style>
+
 ## 사전 만드는 법
 
-<h3b>Dragut, E. C., Yu, C., Sistla, P., & Meng, W. (2010).  </h3b>  
-Construction of a sentimental word dictionary.  
-Paper presented at the Proceedings of the 19th ACM international conference on Information and knowledge management.  
+<h4></br></h4>
 
-<h3b>Rao, Y., Lei, J., Wenyin, L., Li, Q., & Chen, M. (2014).  </h3b>  
+Dragut, E. C., Yu, C., Sistla, P., & Meng, W. (2010).  
+Construction of a sentimental word dictionary.  
+<italic> Paper presented at the Proceedings of the 19th ACM international conference on Information and knowledge management. </italic>  
+
+<h4></br></h4>
+<h4></br></h4>
+
+Rao, Y., Lei, J., Wenyin, L., Li, Q., & Chen, M. (2014).  
 Building emotional dictionary for sentiment analysis of online news.  
-World Wide Web, 17(4), 723-742.
+<italic> World Wide Web </italic>, 17(4), 723-742.
 
 --- .new-background
 
@@ -338,13 +349,19 @@ World Wide Web, 17(4), 723-742.
 
 ---.new-background
 
+<style>
+italic {
+   font-style: italic;
+}
+</style>
+
 ## Probabilistic Topic Models
 
 ### LDA  
 
-- Blei, David M. and Ng, Andrew and Jordan, Michael. 
+Blei, David M. and Ng, Andrew and Jordan, Michael. (2003).  
 Latent Dirichlet allocation.   
-Journal of Machine Learning Research, 2003.  
+<italic>Journal of Machine Learning Research</italic>
 
 [참고자료](http://yosinski.com/mlss12/media/slides/MLSS-2012-Blei-Probabilistic-Topic-Models.pdf)
 
@@ -369,12 +386,26 @@ Journal of Machine Learning Research, 2003.
 
 --- &twocol w1:50% w2:50% .new-background
 
+<style>
+italic {
+   font-style: italic;
+}
+</style>
+
 ## 대안
 
 *** =left
 
+### SLDA
+
+Blei and McAuliffe, (2008).  
+Supervised topic models.  
+<italic> vances in Neural Information Processing Systems</italic>  
+, pages 121–128. MIT Press.
+
+### Cross-Validation
+
 - Training Set과 Test Set을 7:3으로 분할
-- SLDA 사용 
 
 
 ```r
