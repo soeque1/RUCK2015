@@ -49,6 +49,8 @@ knit        : slidify::knit2slides
 <h3b> 4. 언어 처리 도구 : 텍스트 분석   </h3b>  
 <h3b> 5. Matlab / Python -> R </h3b>  
 
+- 본 발표자료는 Interactive Plots이 포함되어 있습니다. [클릭하세요](http://soeque1.github.io/RUCK2015/html/kim_quantlab.html#1)
+
 --- .new-background
 
 ## 텍스트 분석
@@ -61,10 +63,6 @@ knit        : slidify::knit2slides
 
 ### 통계 분석 목적 
 : 주어진 데이터를 통해 미래를 예측 + 통계 모형을 통해 현상을 설명  
-
---- .dark .segue .nobackground
-
-## 1단계 : 키워드 추출
 
 --- &twocol w1:50% w2:50% .new-background
 
@@ -110,10 +108,6 @@ R
 
 *** =right
 <center><img src="assets/img/after_imitation.png" height="500" width="600"></center>
-
---- .dark .segue .nobackground
-
-## 2단계 : 키워드 간 Co-Occurrence + 감정 단어
 
 --- &twocol w1:50% w2:50% .new-background
 
@@ -255,10 +249,6 @@ Building emotional dictionary for sentiment analysis of online news.
 
 <center><img src="assets/img/system_02.png" height="400" width="650"></center>
 
---- .dark .segue .nobackground
-
-## 3단계 : 감정 점수 
-
 --- &twocol w1:50% w2:50% .new-background
 
 ## 감정 점수
@@ -343,10 +333,6 @@ Building emotional dictionary for sentiment analysis of online news.
 ## [31] "드러운노친네 빈볼날리니 좋아?"
 ```
 
---- .dark .segue .nobackground
-
-## 4단계 : 감정 점수 및 해석
-
 ---.new-background
 
 <style>
@@ -417,12 +403,15 @@ library(servr)
 
 *** =right
 
+
 ### 예측한 점수와 실제 점수간 상관관계
 
-
-
 <h4></br></h4>
 <h4></br></h4>
+
+
+
+
 
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
 <!-- Sun Jun 21 22:11:03 2015 -->
