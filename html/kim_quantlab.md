@@ -34,7 +34,7 @@ knit        : slidify::knit2slides
 
 ## 회사 소개
 
-<center><img src="assets/img/quantlab_intro.jpg" height="600" width="800"></center>
+<center><img src="assets/img/quantlab_intro.jpg" height="500" width="800"></center>
 
 --- .new-background
 
@@ -88,7 +88,7 @@ R
 - 기존 기숙사 흡연 구역 재배정  
 
 *** =right
-<center><img src="assets/img/first.png" height="600" width="650"></center>
+<center><img src="assets/img/first.png" height="500" width="650"></center>
 
 --- &twocol w1:50% w2:50% .new-background
 
@@ -120,7 +120,7 @@ R
 ## 텍스트와 감정
 
 *** =left
-<center><img src="assets/img/avengers.png" height="800" width="800"></center>
+<center><img src="assets/img/avengers.png" height="500" width="800"></center>
 
 *** =right
 
@@ -162,7 +162,7 @@ library(qgraph)
 
 *** =left
 
-<center><img src="assets/img/HD_02.png" height="800" width="800"></center>
+<center><img src="assets/img/HD_02.png" height="500" width="800"></center>
 
 *** =right
 
@@ -192,7 +192,7 @@ library(qgraph)
 *** =left
 
 <div align="center">
-<iframe width="1024" height="640"
+<iframe width="1024" height="500"
 src="http://soeque1.github.io/RUCK2015/html/assets/img/graph.html"  frameborder='0'>
     </iframe></div>
 
@@ -281,7 +281,7 @@ Building emotional dictionary for sentiment analysis of online news.
 
 ## 감정 점수
 
-<center><img src="assets/img/sentiment.png" height="600" width="650"></center>
+<center><img src="assets/img/sentiment.png" height="500" width="650"></center>
 
 
 --- .new-background
@@ -421,6 +421,9 @@ library(servr)
 
 
 
+<h4></br></h4>
+<h4></br></h4>
+
 <!-- html table generated in R 3.1.3 by xtable 1.7-4 package -->
 <!-- Sun Jun 21 22:11:03 2015 -->
 <table border=1>
@@ -438,26 +441,26 @@ library(servr)
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term="  frameborder="0"">
+<iframe width="1024" height="500" src="http://soeque1.github.io/RUCK2015/html/assets/slda/foulball/index.html#topic=9&lambda=0.51&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=4&lambda=.5&term="  frameborder="0"">
+<iframe width="1024" height="500" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=4&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
 
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
+<iframe width="1024" height="500" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=15&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
 
 <div align="center">
-<iframe width="1024" height="640" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=18&lambda=.5&term="  frameborder="0"">
+<iframe width="1024" height="500" src="http://soeque1.github.io/RUCK2015/html/assets/lda/bobe/index.html#topic=18&lambda=.5&term="  frameborder="0"">
 </iframe></div>
 
 --- .new-background
