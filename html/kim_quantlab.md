@@ -106,10 +106,10 @@ R
 ## 분석 예시 - Text
 
 *** =left
-<center><img src="assets/img/before_imitation.png" height="500" width="500"></center>
+<center><img src="assets/img/before_imitation.png" height="500" width="600"></center>
 
 *** =right
-<center><img src="assets/img/after_imitation.png" height="600" width="600"></center>
+<center><img src="assets/img/after_imitation.png" height="500" width="600"></center>
 
 --- .dark .segue .nobackground
 
@@ -353,12 +353,6 @@ Journal of Machine Learning Research, 2003.
 ## LDA
 
 <center><img src="assets/img/lda_01.png" height="500" width="800"></center>
-
----.new-background
-
-## LDA
-
-<center><img src="assets/img/lda_02.png" height="500" width="800"></center>
 
 ---.new-background
 

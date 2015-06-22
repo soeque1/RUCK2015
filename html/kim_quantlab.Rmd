@@ -106,10 +106,10 @@ R
 ## 분석 예시 - Text
 
 *** =left
-<center><img src="assets/img/before_imitation.png" height="500" width="500"></center>
+<center><img src="assets/img/before_imitation.png" height="500" width="600"></center>
 
 *** =right
-<center><img src="assets/img/after_imitation.png" height="600" width="600"></center>
+<center><img src="assets/img/after_imitation.png" height="500" width="600"></center>
 
 --- .dark .segue .nobackground
 
