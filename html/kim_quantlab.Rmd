@@ -64,7 +64,7 @@ knit        : slidify::knit2slides
 ### 통계 분석 목적 
 : 주어진 데이터를 통해 미래를 예측 + 통계 모형을 통해 현상을 설명  
 
---- &twocol w1:50% w2:50% .new-background
+--- &twocol w1:40% w2:60% .new-background
 
 ## 분석 예시 - Text
 
@@ -86,7 +86,7 @@ R
 - 기존 기숙사 흡연 구역 재배정  
 
 *** =right
-<center><img src="assets/img/first.png" height="500" width="650"></center>
+<left><img src="assets/img/first.png" height="500" width="650"></left>
 
 --- &twocol w1:50% w2:50% .new-background
 
@@ -197,7 +197,7 @@ library(networkD3)
 
 ### 감정사전 
 
-- tm.plugin.sentiment
+- [tm.plugin.sentiment](http://statmath.wu.ac.at/courses/SNLP/Presentations/DA-Sentiment.pdf)
 - http://mpqa.cs.pitt.edu/lexicons/subj_lexicon/
 - http://word.snu.ac.kr/kosac/
 - http://clab.snu.ac.kr/arssa/doku.php?id=app_dict_1.0
@@ -234,7 +234,7 @@ Building emotional dictionary for sentiment analysis of online news.
 
 --- &twocol w1:50% w2:50% .new-background
 
-## 감정 점수
+## 감정 점수 (tm.plugin.sentiment)
 
 *** =left
 <center><img src="assets/img/Google_Chart_01.png" height="500" width="500"></center>
