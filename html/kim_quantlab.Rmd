@@ -259,19 +259,19 @@ Building emotional dictionary for sentiment analysis of online news.
 
 --- .new-background
 
-## 감정 점수 실패 사례
+## 감정 점수
 
 <center><img src="assets/img/foulball.png" height="500" width="800"></center>
 
 --- .new-background
 
-## 감정 점수 실패 사례
+## 감정 점수
 
 <center><img src="assets/img/foulball_01.png" height="500" width="500"></center>
 
 --- .new-background
 
-## 감정 점수 실패 사례
+## 감정 점수
 
 <center><img src="assets/img/foulball_02.png" height="500" width="800"></center>
 
@@ -424,11 +424,11 @@ Dynamic topic models. <italic> In Proceedings of the 23rd international conferen
 
 *** =left
 
-<center><img src="assets/img/dtm_05_topic_01.png" height="500" width="800"></center>
+<center><img src="assets/img/dtm_05_topic_02.png" height="500" width="800"></center>
 
 *** =right
 
-<center><img src="assets/img/dtm_04_topic_01.png" height="500" width="800"></center>
+<center><img src="assets/img/dtm_04_topic_02.png" height="500" width="800"></center>
 
 --- &twocol w1:50% w2:50% .new-background
 
@@ -436,11 +436,17 @@ Dynamic topic models. <italic> In Proceedings of the 23rd international conferen
 
 *** =left
 
-<center><img src="assets/img/dtm_07_topic_01.png" height="500" width="800"></center>
+<center><img src="assets/img/dtm_07_topic_02.png" height="500" width="800"></center>
 
 *** =right
 
 <center><img src="assets/img/dtm_background.png" height="500" width="800"></center>
+
+--- .new-background
+
+## Marginal Topic Distribution
+
+<center><img src="assets/img/marginal_topic_dist.png" height="500" width="600"></center>
 
 --- .new-background
 
