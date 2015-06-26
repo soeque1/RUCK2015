@@ -581,7 +581,7 @@ http://course.mindscale.kr/course/text-analysis
 
 *** =right
 
-### 텍스트 데이터 분석: 키워드를 넘어 토픽으로
+#### 텍스트 데이터 분석: 키워드를 넘어 토픽으로
 
 <h4></br></h4>
 <h4></br></h4>
